@@ -12,8 +12,9 @@ body {
   text-decoration: none;
 }
 body {
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
+  height: 1920px;
 
 }
 
