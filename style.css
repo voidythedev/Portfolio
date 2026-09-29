@@ -61,6 +61,7 @@ font-size: 25px;
 
 .section-home {
     animation: inicializar .8s forwards;
+    height: 1200px;
     background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -97,8 +98,9 @@ font-size: 25px;
     display: flex;
 }
 .gatodev img {
-width: 50%;
-margin-top: 50px;
+margin-left: 205px;
+width: 65%;
+margin-top: -400px;
 box-shadow: 0px 0px 160px 5px rgb(66, 54, 83);
 border-radius: 300px;
 }
@@ -129,7 +131,7 @@ border-radius: 300px;
 
  
 .aboutme  {
-    margin-top: 120px;
+    margin-top: 20px;
     align-self: start;
     display: grid;
 
@@ -160,12 +162,13 @@ border-radius: 300px;
 
 
 .carousel {
-    max-width: 400px;
+    margin-left: 205px;
+    max-width: 600px;
     overflow: hidden;
     object-fit: fill;
     box-shadow: 0px 0px 150px 20px rgb(66, 54, 83);
     border-radius: 10px;
-    margin-top: 320px;
+    margin-top: 120px;
     position: relative;
 }
 
