@@ -34,10 +34,14 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-header h1 img {
-    width: 55px;
-    height: 55px;
-    margin-left: 15px;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.logo img {
+    width: 65px;
+    height: 65px;
 }
 header span {
     font-size: 45px;
@@ -55,7 +59,7 @@ color: rgb(231, 223, 237);
 font-size: 25px;
 }
 
-.section-div {
+.section-home {
     animation: inicializar .8s forwards;
     background-color: rgb(0, 0, 0);
     display: grid;
@@ -67,7 +71,7 @@ font-size: 25px;
 }
 
  
-.section-div div {
+.apresentar{
     margin-top: 120px;
     align-self: start;
     display: grid;
@@ -75,13 +79,13 @@ font-size: 25px;
 
 }
 
-.section-div div h2 {
+.section-home div h2 {
     font-family: 'Poppins';
     font-weight: 600;
     color: #f7f7f7
 }
 
-.section-div div p {
+.section-home div p {
     font-family: 'Poppins';
     font-size: 35px;
     font-weight: 200;
@@ -89,7 +93,10 @@ font-size: 25px;
     line-height: 2.5rem;
 }
 
-.section-div img {
+.gatodev {
+    display: flex;
+}
+.gatodev img {
 width: 100%;
 margin-top: 50px;
 box-shadow: 0px 0px 160px 5px rgb(66, 54, 83);
@@ -106,4 +113,97 @@ border-radius: 300px;
         opacity: 1;
         transform: translate3d(0, 0px, 0);
     }
+}
+
+/* SEÇÃO PRINCIPAL SOBRE MIM */
+.section-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    animation: inicializar .8s forwards;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+ 
+.aboutme  {
+    margin-top: 120px;
+    align-self: start;
+    display: grid;
+
+    gap: 30px;
+
+}
+
+.section-about div h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #f7f7f7
+}
+.section-about div h1 {
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #f7f7f7
+}
+
+.section-about div p {
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 200;
+    color: #f7f7f7;
+    line-height: 2.5rem;
+    
+}
+
+
+.carousel {
+    max-width: 400px;
+    overflow: hidden;
+    object-fit: fill;
+    box-shadow: 0px 0px 150px 20px rgb(66, 54, 83);
+    border-radius: 10px;
+    margin-top: 320px;
+    position: relative;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides img {
+    display: block;
+    max-width: 100%;
+    
+
+}
+
+.section-about div button {
+    cursor: pointer;
+    top: 50%;
+    transform:translateY(-50%);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: #f7f7f76c;
+    font-size: large;
+    border-color: rgba(240, 255, 255, 0);
+    border-radius: 65%;
+
+}
+
+.section-about div button:hover{
+    color: #f7f7f7;
+}
+
+.leftarrow {
+    width: 20px;
+    left: 5px
+
+}
+
+.rightarrow {
+    width: 20px;
+    left: 375px;
 }

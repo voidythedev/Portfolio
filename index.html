@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Dev <span>Voidy</span><img src="Emotes Luo Xiaohei/Feliz.png" alt="ilustrativa"></h1>
+        <div class="logo">
+            <h1>Dev <span>Voidy</span></h1>
+            <img src="Emotes Luo Xiaohei/Feliz.png" alt="Luo Xiaohei feliz">
+        </div>
         <nav>
             <ul class="navigation">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#resume">Resume</a></li>
-                <li><a href="#portfolio">Portifolio</a></li>
-                <li><a href="#skills&tecnologies">Skills & Tecnologies</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills-technologies">Skills & Technologies</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section arial-label="seção" class="section-div"</section>
-        <div>
+    <section aria-label="seção" class="section-home">
+        <div class="apresentar">
             <h2>What'sup people! I'm a</h2>
             <h2 class="digitando">Web Developer, and Video Editor</h2>
-            <p>Website Developer/Web Designer & Video Editor. 
-             I create Personal Websites, Landing Pages, Link Pages, Shorts/Reels, Valorant Edits, and Thumbnails.</p>
+            <p>Website Developer/Web Designer & Video Editor.
+                I create Personal Websites, Landing Pages, Link Pages, Shorts/Reels, Valorant Edits, and Thumbnails.</p>
         </div>
-        <img src="Imagens/gatodev.png" alt="ilustrativa">
+        <div class="gatodev">
+            <img src="Imagens/gatodev.png" alt="GatoDev" />
+        </div>
     </section>
-
-
-    <script src="script.js"></script>
+    <section aria-label="seção" class="section-about">
+        <div class ="aboutme">
+            <h1>About Me</h1>
+            <h2 class="AboutMe">Hello! I'm Voidy (Vittor) and I am..</h2>
+            <p> 19 years old, I am a Web Developer/Web Designer student and a Video Editor/Thumbmaker. 
+                You can see some of my thumbs right here! ➜</p>
+        </div>
+        
+        <div class="carousel">
+            <div class="slides">
+                <img src="Thumbs Valorant/NEONXITADA.png" alt="NeonXitada" />
+                <img src="Thumbs Valorant/Demons.jpg" alt="Demons" /> 
+                <img src="Thumbs Valorant/Thumb_Melhore_sua_mira.png" alt="Demons" /> 
+                <img src="Thumbs Valorant/MonoNeonPlat.jpg" alt="MonoNeon1" />
+                <img src="Thumbs Valorant/LetTheWorldBurn.jpg" alt="Burn" /> 
+                <img src="Thumbs Valorant/Party Addict.png" alt="PartyAddict" />
+            </div>
+            <button class="leftarrow">&#10094;</button>
+            <button class="rightarrow">&#10095;</button>
+            <script src="script.js"></script>
+        </div>
 </body>
+
 </html>
